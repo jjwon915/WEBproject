@@ -14,3 +14,6 @@ WEB(Java Project로 생성)
        - js
        - images
        - css 
+
+- Tomcat과 연결하기 위해 server.xml에 context등록
+   - <Context path="/web" docBase="C:\eGovFrame-3.9.0\workspace.edu\WEB\webapp"/>
