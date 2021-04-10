@@ -1,9 +1,15 @@
-# WEBproject(WEB Application의 구조)
+# WEB
 WEB(Java Project로 생성)
 - Java Project에는 기본적으로 **src(.java), bin(.class)**가 존재한다.
-- <Dynamic WEB Project의 디렉토리 구조로 변경>
+- Dynamic WEB Project의 디렉토리 구조로 변경 : 아래와 같은 Directory 구조가 되어야 WAS(tompcat)이 WEB Application으로 인식한다.
   - Dynaminc WEB Project에서는 classes에 .class파일들이 존재. 
+- 
   - webapp
-       - WEB-INF 
+       - **WEB-INF**
           - lib : api(.jar)
           - classes : .class
+       - **web.xml** : 배치서술자(deployment descriptor), mapping 할 때 사용.
+       - member
+       - js
+       - images
+       - css 
