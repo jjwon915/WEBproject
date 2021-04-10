@@ -18,3 +18,4 @@ WEB(Java Project로 생성)
 - Tomcat과 연결하기 위해 server.xml에 context등록
    - Context path="/web" docBase="C:\eGovFrame-3.9.0\workspace.edu\WEB\webapp"
    - 클라이언트가 http://localhost:8080/web/index.html을 요청하면 tomcat server는 /web/index.html을 보고 /web이 server.xml에 존재하면 경로를 찾아간다. 
+   - 요청한 index.html을 응답한다. 
