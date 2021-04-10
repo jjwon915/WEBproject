@@ -5,7 +5,7 @@ WEB(Java Project로 생성)
    - Dynaminc WEB Project에서는 classes에 .class파일들이 존재. 
 - WEB
   - src 
-  - webapp
+  - webapp(root directory)
        - **WEB-INF**
           - lib : api(.jar)
           - classes : .class
