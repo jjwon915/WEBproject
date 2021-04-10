@@ -9,7 +9,7 @@ WEB(Java Project로 생성)
        - **WEB-INF**
           - lib : api(.jar)
           - classes : .class
-       - **web.xml** : 배치서술자(deployment descriptor), mapping 할 때 사용.
+          - web.xml : 배치서술자(deployment descriptor), mapping 할 때 사용.
        - member
        - js
        - images
